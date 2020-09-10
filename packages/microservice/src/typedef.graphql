@@ -1,0 +1,20 @@
+type Query {
+  # Query Definitions
+  list: [ServiceCatalogType]
+  get(id: String!): ServiceCatalogType
+}
+
+type Mutation {
+  # Mutation Definitions
+  create(input: ServiceCatalogInput): ServiceCatalogType
+  update(input: ServiceCatalogInput): ServiceCatalogType
+  delete(id: String!): ServiceCatalogType
+}
+
+type ServiceCatalogType {
+  message: String
+}
+
+input ServiceCatalogInput {
+  message: String
+}
