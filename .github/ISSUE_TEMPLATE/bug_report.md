@@ -1,10 +1,10 @@
 ---
 name: "Bug report \U0001F41E"
 about: Report something that doesn't work
-title: ""
-labels: bug
-assignees: ""
-projects: 1-Platform/1
+title: "[Bug]: "
+labels: 'Type: Bug'
+assignees: ''
+
 ---
 
 <!--

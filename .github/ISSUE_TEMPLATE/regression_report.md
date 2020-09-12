@@ -1,10 +1,10 @@
 ---
 name: "Regression report \U0001F570"
 about: Tell us about something that worked at one point and now doesn't
-title: ""
-labels: regression
-assignees: ""
-projects: 1-Platform/1
+title: "[Regression]: "
+labels: 'Type: Regression'
+assignees: ''
+
 ---
 
 <!--For regression reports, please provide as much relevant info as possible.-->

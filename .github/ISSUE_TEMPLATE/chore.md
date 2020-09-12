@@ -1,9 +1,10 @@
 ---
 name: "Chore \U0001F527"
 about: Internal things, technical debt, and to-do tasks to be performed.
-title: ""
-labels: chore
-assignees: ""
+title: "[Chore]: "
+labels: 'Type: Chore'
+assignees: ''
+
 ---
 
 <!-- Separate suggestions for updates to configuration or build processes and libraries / Internal things, technical debt, and to-do tasks to be performed should be reported in separate issues.-->
