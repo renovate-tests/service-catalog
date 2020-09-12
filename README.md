@@ -1,9 +1,7 @@
 # One Platform - Service Catalog
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/1-Platform/one-platform#readme)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/1-Platform/one-platform/graphs/commit-activity)
-[![License: MIT](https://img.shields.io/github/license/1-Platform/one-platform)](https://github.com/1-Platform/one-platform/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/1-Platform/one-platform)](https://github.com/1-Platform/service-catalog/blob/master/LICENSE)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/1-Platform/service-catalog.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/1-Platform/service-catalog/alerts/)
 [![Actions Status](https://github.com/1-Platform/service-catalog/workflows/CodeQL/badge.svg)](https://github.com/1-Platform/service-catalog/actions)
