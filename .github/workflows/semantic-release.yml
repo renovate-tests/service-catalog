@@ -1,0 +1,35 @@
+# This workflow will do a semantic release of the monorepo packages whenever a Pull Request is Merged.
+# For more information see: https://github.com/pmowrer/semantic-release-monorepo 
+# and https://github.com/semantic-release/semantic-release/blob/master/docs/recipes/github-actions.md
+
+name: Release
+
+on:
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  release:
+
+    name: Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run semantic-release
