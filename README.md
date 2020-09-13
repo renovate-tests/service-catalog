@@ -57,6 +57,6 @@ Copyright © 2020 [One Platform](https://github.com/1-Platform).
 
 This project is [MIT](https://github.com/1-Platform/service-catalog/blob/master/LICENSE) licensed.
 
-## 💻 Monorepo Management
+## 💻 Monorepo management
 
 The package management for this monorepo is handled using [Lerna](https://lerna.js.org/) and as such any package related activities can be handled using lerna. For detailed usage intructions, please refer to the [Lerna Documentation](https://github.com/lerna/lerna#about)
