@@ -11,7 +11,7 @@
   "version": "0.0.1",
   "scripts": {
     "semantic-release": "lerna exec --concurrency 1 -- semantic-release -e semantic-release-monorepo --tag-format='${LERNA_PACKAGE_NAME}-v\\${version}'",
-    "test": "echo \"Oops! No tests setup yet!\" && exit 1"
+    "test": "echo \"Oops! No tests setup yet!\""
   },
   "repository": {
     "type": "git",
