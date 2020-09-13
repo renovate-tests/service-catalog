@@ -43,6 +43,8 @@ npm run test
 
 Contributions, issues and feature requests are welcome!
 
+Looking for beginner-friendly good first issue to get started with? Checkout the [Contributions](https://github.com/1-Platform/service-catalog/contribute) page.
+
 Feel free to check [issues page](https://github.com/1-Platform/service-catalog/issues). You can also take a look at the [contributing guide](https://github.com/1-Platform/service-catalog/blob/master/CONTRIBUTING.md).
 
 ## ❤️ Show your support
