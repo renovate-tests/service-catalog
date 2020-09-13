@@ -8,17 +8,22 @@
   - packages/microservice/*
   - packages/microservice/**/*
 
-# Add 'Type: Test'' label to any changes within any test or spec files
+# Add 'Type: Test' label to any changes within any test or spec files
 'Type: Test':
-  - *.test.js
+  - *.test.*
   - *.spec.*
   - ./**/*.spec.*
   - ./**/*.test.*
   - ./**/**/*.spec.*
   - ./**/**/*.test.*
 
-# Add 'Type: Documentation'' label to any changes within any markdown file
+# Add 'Type: Documentation' label to any changes within any markdown files
 'Type: Documentation':
   - *.md
   - ./**/*.md
   - ./**/**/*.md
+
+# Add 'Type: Chore' label to any changes within any GitHub configuration files
+'Type: Chore':
+  - .github/*
+  - .github/**/*
