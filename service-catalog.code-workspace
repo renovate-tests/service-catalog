@@ -52,7 +52,6 @@
 	  "less.lint.vendorPrefix": "error",
 	  "less.lint.zeroUnits": "error",
 	  "npm.enableRunFromFolder": true,
-	  "npm.enableScriptExplorer": true,
 	  "npm.enableTouchbar": true,
 	  "prettier.singleQuote": true,
 	  "prettier.jsxSingleQuote": true,
@@ -92,4 +91,3 @@
 	  "search.showLineNumbers": true,
 	}
   }
-  
