@@ -10,6 +10,7 @@
   "description": "A service catalog to organize collections of any and all business related services that can be performed by, for, or within any Product and Technology group.",
   "version": "0.0.1",
   "scripts": {
+    "lerna": "lerna",
     "semantic-release": "lerna exec --concurrency 1 -- semantic-release -e semantic-release-monorepo --tag-format='${LERNA_PACKAGE_NAME}-v\\${version}'",
     "test": "echo \"Oops! No tests setup yet!\""
   },
