@@ -4,12 +4,13 @@
   "devDependencies": {
     "commitizen": "4.2.1",
     "cz-conventional-changelog": "3.3.0",
-    "husky": "4.3.0",
+    "husky": "^4.3.0",
     "lerna": "3.22.1"
   },
   "description": "A service catalog to organize collections of any and all business related services that can be performed by, for, or within any Product and Technology group.",
   "version": "0.0.1",
   "scripts": {
+    "semantic-release": "lerna exec --concurrency 1 -- semantic-release -e semantic-release-monorepo --tag-format='${LERNA_PACKAGE_NAME}-v\\${version}'",
     "test": "echo \"Oops! No tests setup yet!\" && exit 1"
   },
   "repository": {
