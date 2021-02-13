@@ -50,7 +50,7 @@
     "graphql": "15.5.0",
     "graphql-tools": "7.0.3",
     "graphql-redis-subscriptions": "2.3.1",
-    "apollo-log": "0.2.0",
+    "apollo-log": "1.0.1",
     "apollo-server-express": "2.21.0",
     "lodash": "4.17.20",
     "method-override": "3.0.0",
